@@ -14,16 +14,8 @@ const Navbar = () => {
             path: "#about"
         },
         {
-            title: "Skills",
-            path: "#skill"
-        },
-        {
-            title: "Project",
+            title: "Tech/Cert",
             path: "#project"
-        },
-        {
-            title: "Cert",
-            path: "#cert"
         },
         {
             title: "Contact",
