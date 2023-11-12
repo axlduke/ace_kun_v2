@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
+import Me from '../../public/me.png'
 const HeroSection = () => {
     return (
-        <div className="px-16" id="home">
+        <div className="h-screen" id="home">
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -21,7 +22,7 @@ const HeroSection = () => {
                                 1000,
                                 'Software Dev.',
                                 1000,
-                                'Full Stack Dev.',
+                                'UI / UX',
                                 1000,
                             ]}
                             wrapper='span'
@@ -42,7 +43,9 @@ const HeroSection = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
             >
-
+                <div className='relative'>
+                    <img src={Me} alt="" className='flex mt-10 lg:mt-0 lg:absolute lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:-top-20 lg:-right-32'/>
+                </div>
             </motion.div>
         </div>
     )
