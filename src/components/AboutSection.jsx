@@ -62,13 +62,13 @@ const AboutSection = () => {
     return (
         <section className="h-screen pt-20" id="about">
             <h1 className="text-center text-4xl font-orbitron font-extrabold text-transparent bg-clip-text bg-gradient-to-t from-violet-300 to-violet-600">About me</h1>
-            <div className="grid grid-cols-1 lg:grid-cols-2 mt-5 space-y-5 lg:space-y-0">
+            <div className="grid items-center grid-cols-1 lg:grid-cols-2 mt-5 space-y-5 lg:space-y-0">
                 <div className='flex justify-center'>
                     <img src={wall} alt="background_wall" className='w-72'/>
                 </div>
                 <div>
                     <p className="text-justify lg:text-lg font-source-code-pro text-white">
-                        I am a <strong className='text-transparent bg-clip-text bg-gradient-to-t from-violet-300 to-violet-600'>Software Developer/full stack web developer</strong> with a passion for creating
+                        I am a <strong className='text-transparent bg-clip-text bg-gradient-to-t from-violet-300 to-violet-600'>Software Engineer/full stack web developer</strong> with a passion for creating
                         interactive and responsive web applications. I have experience
                         working with JavaScript, React, Redux, Node.js, Php, Express, PostgreSQL,
                         SQL, MySql, HTML, CSS, and Git. I am a quick learner and I am always

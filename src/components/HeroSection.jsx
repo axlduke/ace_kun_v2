@@ -20,7 +20,7 @@ const HeroSection = () => {
                             sequence={[
                                 'Ace Malto',
                                 1000,
-                                'Software Dev.',
+                                'Software Eng.',
                                 1000,
                                 'UI / UX',
                                 1000,
@@ -44,7 +44,7 @@ const HeroSection = () => {
                 transition={{ duration: 0.5 }}
             >
                 <div className='relative'>
-                    <img src={Me} alt="" className='flex mt-10 lg:mt-0 lg:absolute lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:-top-20 lg:-right-32'/>
+                    <img src={Me} alt="" className='flex mt-10 lg:mt-0 lg:absolute lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:-top-20 lg:-right-[300px]'/>
                 </div>
             </motion.div>
         </div>
